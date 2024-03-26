@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>單一活動詳情頁面</title>
+    <script type="module" crossorigin src="/ticket_booking_bs_layout/assets/main-Cjpb6hRq.js"></script>
+    <link rel="stylesheet" crossorigin href="/ticket_booking_bs_layout/assets/main-B_72GHD9.css">
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <header class="border-bottom border-3 border-black mb-16 mb-lg-32">
+      <nav class="navbar navbar-expand-lg py-12 py-lg-24">
+        <div class="container flex-nowrap gap-24">
+          <!-- logo -->
+          <a class="navbar-brand m-0" href="../index.html">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATESURBVHgB7Z0xTFNRFIYvtBo0xldDjCEOJXFwk0Gjmw4aNnUgsukgkUkcCGyEwbhpHIAJooOOxgHYTBx0w+hQNxOH1sQQVLRFo0RRvP+jr719YGmxlPufnC8x9jXPBt/HOfeccx+PlkQisWoU72k1CgUqigQVRUIy/sbyStooO09bMldxrBFFgooiQUWRoKJIUFEkqCgSVBQJKooEFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJIgTlcn8NLnsipGGOFGF/B/z2sqSRtIIA5JWTYuRhjhRuexvI/GnHsSJyubkrU9AnCisUfgjDXmpDxElMPcJXKNkpj5R5bmb8qQJEyVKaiEB5EaUMGnCRJWrCPRTkhAlKi+wLI+QFVGFchTlC7KkeS+qnijJO6mv1qYXn88Qid6Lwnj15PF58/zZsmkkkHPrZsF0n10wqZT/icX7rzCwF/HCxT3hBR0e/FL1XLd3qtZHQfqpE/NWVN7cuXvAMECxRg3c2G/SnUkzPrZkjh55/1/N7IT9DEjHZ1y3n3v6TJthgEIUomrqXnv4Gv0RomFm+oepl2tXF81QMSrT6SRNNAGaqg/f+beLFxbrS2/Ph3CNcXGbXLfqw/mIoocPvoXHWJOePD1kmKAqz5ECL1/ZVzrGGhOXFeFWff19ixXFyKSNTqRSJuj6qKn77RXrSjVZAAXIzPT30vHIaMoWJ3sNG5QN76PHBysuNmSNj31dd97a+0ulY0gaGQ0MIy3xBysyPbQK0eKKqAabJFEPrUJxUcvFr/U8n/FmRY16I1Ru0eS7UCiPd9zeCRVdPfdFzNpSftYp51Gal14XiwpUgkHQGrYCqVRL+DfO82Vq0bTUhwudyfwy76yIrH29JmQllOH7bixkQlokr9MeH+vaFR53de0228GOpT4IwXdqdOcJXjHM2CIQ2eXbOlfDiE4Fzfv6vSkmcCEQbfni7V6YhGPbIpqIV8zxYru3mw1s3XI+SnER5dRn012QKL6XKKXHneq34hHlzRqVCteG+tMIZne1iGIvJqirPvRJQ5tM1KPzhms4z2doRcUnEuiT3BTnzgYB+q1LPR9pt+spRcUlYbtio9Q2EHt/1o6Seq0sRuhEYXvDlYRRUrXtivhEAusZtjvYoBKFyq+/71PpGOltsrhPBYJ/lPtxWdju2Gg26DNUorrPLZTWGGx3YE/J7cXcvsadPgDIwjA3On948HPD78PYTmhEoWqLeikUCdjuqJfzNk3Ovewo9UZIgSzFBYUofOejakOUIIpQJGwVSHrz9nD4GWicJ0hSIIUo9EpYY+ZedVS9GcWdImw2UUBUQjo2FRmiyvv9aIyT4mtRo4D0F1a+imoAQR2C1oa+W/l3egNmU4mGqqCZk+1mIPYRO250SUCUKGxPRAREe121IEuU0+SqKBLikwl2hKW+shymbf5aEPeciVCWPhDEf3A/hLRoAjIjSiDi/ledtojQx8ARgF5KH6xIQDqNO1jliRK36ka3GkuD+sduJKO/K54UFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJKgoElQUCSqKBBVFgooiQUWRoKJIWHcXkuInGlEkqCgSVBQJfwFJWMcKLx/BoQAAAABJRU5ErkJggg=="
+              alt="Logo"
+              class="d-inline-block object-fit-cover logo-img"
+            />
+            <div class="d-none d-lg-inline-block ms-16">
+              <span class="yeseva fs-32 align-middle">7TAO</span>
+              <span class="fw-bold align-middle ms-4">活動訂票網</span>
+            </div>
+          </a>
+          <!-- search form -->
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control form-search-control rounded-0"
+                placeholder="探索活動"
+              />
+              <button class="btn btn-dark rounded-0 p-12 p-lg-16" type="button">
+                <i class="icofont-search-1 search-icon-color"></i>
+              </button>
+            </div>
+          </form>
+          <!-- menu button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuList"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- menu list -->
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-end py-16"
+            id="menuList"
+          >
+            <ul class="navbar-nav gap-16 gap-lg-24">
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link-hover" href="#"
+                  ><i class="icofont-ui-file"></i
+                  ><span class="yeseva">REGISTER</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link-hover" href="login.html"
+                  ><i class="icofont-ui-user"></i
+                  ><span class="yeseva">LOGIN</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="mb-48 mb-lg-60">
+      <div class="container">
+        <!-- hero -->
+        <section class="row gy-8 mb-24">
+          <div class="col-md-9 col-lg-10">
+            <div class="p-12 p-md-24 border border-3 border-black h-100">
+              <img
+                src="/ticket_booking_bs_layout/assets/09-B_rhrPqa.jpg"
+                class="w-100 h-180 h-md-100 object-fit-cover"
+                alt="詳細頁面主圖"
+              />
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2">
+            <div class="h-100">
+              <div class="row flex-md-column h-100 gx-4">
+                <!-- 年 -->
+                <div class="col-4 col-md-12 mb-md-16">
+                  <div
+                    class="border border-3 border-black h-100 h-md-auto d-flex align-items-center justify-content-center py-md-32"
+                  >
+                    <p class="yeseva fs-24 fs-md-32 fs-lg-48">2023</p>
+                  </div>
+                </div>
+                <!-- 日期時間 -->
+                <div class="col-8 col-md-12 flex-md-grow-1">
+                  <div
+                    class="d-flex flex-md-column align-items-center justify-content-between h-100 border border-3 border-black px-24 py-12 py-md-30 py-xl-48"
+                  >
+                    <p
+                      class="yeseva fs-22 fs-md-32 fs-lg-48 fs-lg-48 text-center"
+                    >
+                      MAY <br />
+                      19
+                    </p>
+                    <div class="divider"></div>
+                    <div class="text-center">
+                      <p class="yeseva fs-md-20 fs-lg-32">12:00</p>
+                      <p>|</p>
+                      <p class="yeseva fs-md-20 fs-lg-32">20:00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- title -->
+        <section class="mb-24 mb-lg-48">
+          <h2 class="fs-32 fs-lg-60 fw-bold mb-8 mb-md-16">
+            返老還童-制服聯誼
+          </h2>
+          <p class="fs-md-22">
+            穿上制服，無年齡限制，一起走上街頭、尋找青春才有的純愛心動！
+          </p>
+          <ul class="list-unstyled d-none d-md-flex gap-8 mt-md-24">
+            <li><a href="#" class="tag">聯誼</a></li>
+            <li><a href="#" class="tag">美食</a></li>
+            <li><a href="#" class="tag">戶外</a></li>
+            <li><a href="#" class="tag">交通旅遊</a></li>
+          </ul>
+        </section>
+        <!-- content -->
+        <section class="mb-24 mb-lg-48">
+          <div class="p-16 p-md-32 border border-3 border-black">
+            <p class="mb-16">想回到過去？試著讓故事繼續？</p>
+            <p class="mb-16">
+              由戀愛家教「艾德溫」主辦策劃，讓各位在安排好的青春行程中擁有自然的純愛互動體驗，互相餵食餅乾、觀察對方手相，有趣的互動環節讓你/妳怦然心動！制服由主辦方提供，妝髮造型可額外加價購！
+            </p>
+            <p>
+              活動中全程會有隨行攝影師，捕捉你們的純愛互動，拍攝成實境電視劇，讓你們能留下永恆的美好回憶
+            </p>
+          </div>
+        </section>
+        <!-- 購票資訊 -->
+        <section>
+          <!-- title -->
+          <div class="title-box">
+            <h2>TICKET</h2>
+            <p>購票資訊</p>
+          </div>
+          <!-- table -->
+          <table class="table align-middle border-black">
+            <thead>
+              <tr>
+                <th scope="col">活動日期</th>
+                <th scope="col">票種</th>
+                <th scope="col">票價</th>
+                <th scope="col" class="col-3">購票</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <td>2023/5/12</td>
+                <td>普通票</td>
+                <td>$600</td>
+                <td>
+                  <a
+                    href="./payment.html"
+                    class="fw-bold border border-2 border-black py-8 px-12 px-md-24 buy-btn-hover"
+                    ><span class="d-none d-md-inline">立即</span>購票</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2023/5/12</td>
+                <td>改頭換面票（含大改造）</td>
+                <td>$3600</td>
+                <td>
+                  <a
+                    href="./payment.html"
+                    class="fw-bold border border-2 border-black py-8 px-12 px-md-24 buy-btn-hover"
+                    ><span class="d-none d-md-inline">立即</span>購票</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2023/5/12</td>
+                <td>必勝票（含戀愛小抄）</td>
+                <td>$8000</td>
+                <td>
+                  <a
+                    href="./payment.html"
+                    class="fw-bold border border-2 border-black py-8 px-12 px-md-24 buy-btn-hover"
+                    ><span class="d-none d-md-inline">立即</span>購票</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="py-24 py-md-32 border-top border-3 border-black">
+      <p class="text-center">© 7TAO七逃. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
