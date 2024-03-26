@@ -1,0 +1,15 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Yeseva+One&display=swap');
+// icon
+@import '../src/icofont/icofont.min.css';
+// bootstrap
+@import "./custom/bootstrap";
+// custom
+@import "./custom/mixin";
+@import "./custom/animation";
+@import "./custom/swiper";
+@import "./custom/custom";
+
+.test{
+  background-image: url('../src/images/event/hero.jpg');
+}

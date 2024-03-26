@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>付款頁</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <header class="border-bottom border-3 border-black">
+      <nav class="navbar navbar-expand-lg py-12 py-lg-24">
+        <div class="container flex-nowrap gap-24">
+          <!-- logo -->
+          <a class="navbar-brand m-0" href="../index.html">
+            <img
+              src="../src/images/Logo.png"
+              alt="Logo"
+              class="d-inline-block object-fit-cover logo-img"
+            />
+            <div class="d-none d-lg-inline-block ms-16">
+              <span class="yeseva fs-32 align-middle">7TAO</span>
+              <span class="fw-bold align-middle ms-4">活動訂票網</span>
+            </div>
+          </a>
+          <!-- search form -->
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control form-search-control rounded-0"
+                placeholder="探索活動"
+              />
+              <button class="btn btn-dark rounded-0 p-12 p-lg-16" type="button">
+                <i class="icofont-search-1 search-icon-color"></i>
+              </button>
+            </div>
+          </form>
+          <!-- menu button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuList"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- menu list -->
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-end py-16"
+            id="menuList"
+          >
+            <ul class="navbar-nav gap-16 gap-lg-24">
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link-hover" href="#"
+                  ><i class="icofont-ui-file"></i
+                  ><span class="yeseva">REGISTER</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link-hover" href="./login.html"
+                  ><i class="icofont-ui-user"></i
+                  ><span class="yeseva">LOGIN</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <section class="login-section">
+      <div class="container">
+        <main class="row">
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <!-- 會員登入 -->
+            <div class="">
+              <!-- title -->
+              <div
+                class="d-flex flex-column align-items-center justify-content-center mb-16"
+              >
+                <img
+                  src="../src/images/sparkler.png"
+                  class="img-fluid"
+                  alt="sparkler"
+                />
+                <h3 class="fw-bold fs-24 mt-16">會員登入</h3>
+              </div>
+              <!-- form -->
+              <form>
+                <div class="mb-16">
+                  <label for="user" class="form-label">帳號</label>
+                  <input
+                    type="text"
+                    class="form-control bg-transparent border-black"
+                    id="user"
+                    placeholder="請輸入帳號"
+                    required
+                  />
+                </div>
+                <div class="mb-24 mb-md-32">
+                  <label for="password" class="form-label">密碼</label>
+                  <input
+                    type="password"
+                    class="form-control bg-transparent border-black"
+                    placeholder="請輸入密碼"
+                    id="password"
+                    required
+                  />
+                </div>
+                <div class="d-grid col-md-8 mx-auto">
+                  <a
+                    href="#"
+                    class="btn custom-btn rounded-0 mb-16"
+                    type="button"
+                  >
+                    登入<i class="icofont-rounded-double-right"></i>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-24 py-md-32 border-top border-3 border-black">
+      <p class="text-center">© 7TAO七逃. All Rights Reserved</p>
+    </footer>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

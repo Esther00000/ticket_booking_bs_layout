@@ -1,0 +1,25 @@
+{
+  "name": "ticket_booking_bs_layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "swiper": "^11.0.7"
+  }
+}
